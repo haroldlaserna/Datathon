@@ -36,8 +36,7 @@ $$\sigma²=\frac{1}{N}\sum_{i=1}^{N}(x_{i}-\mu)^2$$
 
 $$polinomio = (y_{1}+y_{2}+...+y_{p})^M+1$$
 
-$$polinomio = 1+\sum_{i_{1}+i_{2}+...+i_{p}=M}\binom{M}{i_{1}, i_{2},...,i_{p}}\prod_{1<t<p}x_{t}^{k_{t}}$$
-### siendo $p$ la cantidad de columnas, el grado del polinomio $M$, $i_{t}$las combinaciones de enteros no negativos posibles menores a $M$.
+### siendo $p$ la cantidad de columnas y el grado del polinomio $M$.
 ### **confusion_matrix**: Genera una matriz de confusión minimo con 4 elementos: Verdadero Positivo, Falso Positivo, Falso Negativo y Verdadero Negativo.
 ### **ConfusionMatrixDisplay**: Genera un mapa de calor minimo con 4 píxeles de la matriz de confusión.
 ### **classification_report**: Genera una tabla en pantalla con ciertas relaciones estadisticas importantes a la hora de generar un modelo de clasificación. Dichas estadisticas importantes son:
